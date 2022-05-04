@@ -466,7 +466,7 @@
                         "type": "string"
                     }
                 },
-                "type": "object"
+                "type": "string"
             },
             "ContactSwitchState": {
                 "description": "\n    Door/window sensor state.\n    ",
@@ -3163,7 +3163,12 @@
                     "410": {
                         "$ref": "#/components/responses/410"
                     }
-                }
+                },
+                "security": [],
+                "summary": "Claim hub.",
+                "tags": [
+                    "General"
+                ]
             }
         },
         "/cc/1.11/hub/poll": {
