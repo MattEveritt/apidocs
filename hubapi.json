@@ -3148,10 +3148,7 @@
                         "content": {
                             "application/json": {
                                 "schema": {
-                                    "additionalProperties": {
-                                        "$ref": "#/components/schemas/ClaimHub"
-                                    },
-                                    "type": "object"
+                                    "type": "string"
                                 }
                             }
                         },
