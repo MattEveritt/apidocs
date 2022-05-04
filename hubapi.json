@@ -465,11 +465,7 @@
                         "description": "Hubkey of newly claimed hub",
                         "type": "string"
                     }
-                },
-                "required": [
-                    "type"
-                ],
-                "type": "object"
+                }
             },
             "ContactSwitchState": {
                 "description": "\n    Door/window sensor state.\n    ",
