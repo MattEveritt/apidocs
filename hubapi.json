@@ -3163,8 +3163,10 @@
                     }
                 },
                 "security": [
-                    "hubkey",
-                    "accessToken"
+                    {
+                        "X-Hub-Key": "hubkey",
+                        "Authorization": "accessToken"
+                    }
                 ],
                 "summary": "Claim hub.",
                 "tags": [
