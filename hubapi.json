@@ -461,12 +461,11 @@
             "ClaimHub": {
                 "description": "\n    Hub key.\n    ",
                 "properties": {
-                    "id": {
+                    "HubKey": {
                         "description": "Hubkey of newly claimed hub",
                         "type": "string"
                     }
-                },
-                "type": "string"
+                }
             },
             "ContactSwitchState": {
                 "description": "\n    Door/window sensor state.\n    ",
