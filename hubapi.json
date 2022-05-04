@@ -461,7 +461,7 @@
             "ClaimHub": {
                 "description": "\n    Hub key.\n    ",
                 "properties": {
-                    "HubKey": {
+                    "hubkey": {
                         "description": "Hubkey of newly claimed hub",
                         "type": "string"
                     }
@@ -469,7 +469,7 @@
                 "required": [
                     "type"
                 ],
-                "type": "string"
+                "type": "object"
             },
             "ContactSwitchState": {
                 "description": "\n    Door/window sensor state.\n    ",
@@ -3147,6 +3147,7 @@
                     "200": {
                         "content": {
                             "application/json": {
+                                "name":"HubKey",
                                 "schema": {
                                     "type": "string"
                                 }
