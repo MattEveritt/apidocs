@@ -3165,7 +3165,10 @@
                         "$ref": "#/components/responses/410"
                     }
                 },
-                "security": [],
+                "security": [
+                    "hubkey",
+                    "accessToken"
+                ],
                 "summary": "Claim hub.",
                 "tags": [
                     "General"
