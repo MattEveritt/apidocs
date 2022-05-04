@@ -3150,8 +3150,7 @@
                                 "schema": {
                                     "items": {
                                         "$ref": "#/components/schemas/ClaimHub"
-                                    },
-                                    "type": "string"
+                                    }
                                 }
                             }
                         },
