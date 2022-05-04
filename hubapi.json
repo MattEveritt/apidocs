@@ -3147,8 +3147,10 @@
                     "200": {
                         "content": {
                             "application/json": {
-                                "name":"HubKey",
                                 "schema": {
+                                    "items": {
+                                        "$ref": "#/components/schemas/ClaimHub"
+                                    },
                                     "type": "string"
                                 }
                             }
